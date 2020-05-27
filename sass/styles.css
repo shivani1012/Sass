@@ -1,0 +1,134 @@
+.my-1 {
+  margin: 1px;
+}
+
+.my-1 {
+  margin: 1px;
+  padding: 5px;
+}
+
+.my-2 {
+  margin: 2px;
+}
+
+.my-2 {
+  margin: 2px;
+  padding: 5px;
+}
+
+.btn-primary, .btn-secondary, .btn-transparent {
+  display: inline-block;
+  border-radius: 25px;
+  padding: 8px 20px;
+  margin: 0px 3px;
+  border: none;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.btn-primary:hover, .btn-secondary:hover, .btn-transparent:hover {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+.btn-primary {
+  background-color: #eaaf2f;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  -webkit-box-shadow: 0px 0px 0px 5px #ce961c;
+          box-shadow: 0px 0px 0px 5px #ce961c;
+}
+
+.btn-secondary {
+  background-color: #6666ff;
+}
+
+.btn-transparent {
+  background: transparent;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+a {
+  color: white;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.showcase {
+  background-color: blue;
+  color: white;
+}
+
+.showcase nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 0 0;
+}
+
+.showcase nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+.showcase nav li {
+  padding: 15px;
+}
+
+.showcase a {
+  color: white;
+}
+
+.showcase-content {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px 0;
+}
+
+.showcase-content img {
+  width: 50%;
+}
+
+.showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.1;
+}
+
+.showcase-content p {
+  margin: 20px 0;
+}
+/*# sourceMappingURL=styles.css.map */

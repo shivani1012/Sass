@@ -1,0 +1,47 @@
+$background-Color: lighten(white, 10%);
+$Font: 'Poppins', sans-serif;
+$fontSize: 14px;
+$primaryColor: #0000ff;
+$primaryFontColor: #ffffff;
+$secondaryColor: #eaaf2f;
+$fontweight: 600;
+$fontItalic: italic;
+$uppercase: uppercase;
+$colorCyan: #2c4963;
+$bgGray: url(../images/bg-image.svg) no-repeat;
+$bgpattern: url(../images/services_bg.png) no-repeat;
+$roundedlg: .85rem;
+$shadow: 0 5px 25px rgba(0,0,0,0.08);
+$marginspace: 20px;
+$bgDarkgray: #21252a;
+
+$pdy100: 100px 0px;
+$pdy70: 70px 0px;
+$pxl50: 50px; 
+
+@function settingTextColor($color){
+    @if(lightness($color) > 70) {
+        @return black;
+    } @else  {
+        @return white;
+    }
+}
+
+
+@mixin setBackground($color) {
+    background-color: $color;
+    color:settingTextColor($color);
+}
+
+
+$spaceamounts:(1,2);
+
+@each $space in $spaceamounts {
+    .para-#{$space} {
+        margin: #{$space}px;
+    }
+    .para-#{$space} {
+        margin: #{$space}px;
+        padding:5px
+    }
+}
